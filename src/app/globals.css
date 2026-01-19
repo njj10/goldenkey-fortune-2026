@@ -36,33 +36,34 @@
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    /* Deep Red Theme */
+    --background: 355 65% 10%; /* #2A0909 */
+    --foreground: 38 80% 92%; /* #F9F2E6 - Old Lace/Cream */
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 355 55% 15%;
+    --card-foreground: 38 80% 92%;
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 355 55% 15%;
+    --popover-foreground: 38 80% 92%;
 
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
+    --primary: 43 96% 58%; /* #FBC02D - Gold */
+    --primary-foreground: 355 65% 15%;
 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 355 40% 25%;
+    --secondary-foreground: 38 80% 92%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 355 30% 25%;
+    --muted-foreground: 38 40% 75%;
 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 355 40% 30%;
+    --accent-foreground: 38 80% 92%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 38 80% 92%;
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
+    --border: 355 40% 25%;
+    --input: 355 40% 25%;
+    --ring: 43 96% 58%;
 
     --radius: 0.5rem;
   }
