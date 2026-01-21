@@ -6,7 +6,7 @@ const path = require('path');
 
 // The standalone build is located in .next/standalone
 // We need to resolve it relative to the current working directory
-const standaloneServerPath = path.join(process.cwd(), '.next', 'standalone', 'server.js');
+const standaloneServerPath = path.join(process.cwd(), '.next', 'standalone', 'goldenkey-fortune-2026', 'server.js');
 
 try {
   console.log('Starting EdgeOne server proxy...');
